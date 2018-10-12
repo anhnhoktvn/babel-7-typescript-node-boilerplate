@@ -1,8 +1,7 @@
 {
   "name": "babel-7-typescript-node-boilerplate",
   "version": "1.0.0",
-  "description":
-    "A simple boilerplate for a Node.js project with TypeScript support, Jest testing and Webpack bundling using Babel 7.",
+  "description": "A simple boilerplate for a Node.js project with TypeScript support, Jest testing and Webpack bundling using Babel 7.",
   "main": "index.js",
   "author": "Kennie J. Davis",
   "license": "MIT",
@@ -15,12 +14,21 @@
     "test": "jest"
   },
   "jest": {
-    "moduleDirectories": ["./node_modules", "./src"],
-    "moduleFileExtensions": ["js", "ts"],
+    "moduleDirectories": [
+      "./node_modules",
+      "./src"
+    ],
+    "moduleFileExtensions": [
+      "js",
+      "ts"
+    ],
     "transform": {
       "^.+\\.(ts)$": "ts-jest"
     },
-    "testMatch": ["**/__tests__/**/*.ts", "**/?(*.)(spec|test).ts"]
+    "testMatch": [
+      "**/__tests__/**/*.ts",
+      "**/?(*.)(spec|test).ts"
+    ]
   },
   "dependencies": {
     "rxjs": "^6.1.0",
@@ -28,14 +36,14 @@
   },
   "devDependencies": {
     "@babel/cli": "^7.0.0-beta.46",
-    "@babel/core": "^7.0.0-beta.46",
+    "@babel/core": "^7.1.2",
     "@babel/node": "^7.0.0-beta.46",
-    "@babel/preset-env": "^7.0.0-beta.46",
+    "@babel/preset-env": "^7.1.0",
     "@babel/preset-typescript": "^7.0.0-beta.46",
     "@types/jest": "^22.2.3",
     "@types/node": "^10.0.4",
     "@types/superagent": "^3.5.8",
-    "babel-loader": "^8.0.0-beta.2",
+    "babel-loader": "^8.0.4",
     "jasmine-marbles": "^0.3.1",
     "jest": "^22.4.3",
     "rimraf": "^2.6.2",
